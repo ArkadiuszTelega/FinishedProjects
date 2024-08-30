@@ -1,6 +1,8 @@
 
 # Good Vs Evil
-## The exercise involves calculating the outcome of a battle between the forces of good and evil in Middle Earth. Each race on both sides has a specific "worth" or strength value
+The exercise involves calculating the outcome of a battle between the forces of good and evil in Middle Earth. Each race on both sides has a specific "worth" or strength value
+## Quick summary
+Based on this CodeWars exercise I wrote a quick program that would calculate the worths and return certain strings.
 ### Good Side Races and Their Worth:
 ```
 Hobbits: 1
@@ -23,7 +25,7 @@ Trolls: 5
 Wizards: 10
 ```
 
-Based on this CodeWars exercise I wrote a quick program that would calculate the worths and return certain strings.<br>
+<br>
 Return <br>
 ``` "Battle Result: Good triumphs over Evil" ``` 
 if good wins, <br>
@@ -31,3 +33,9 @@ if good wins, <br>
 if evil wins, or <br>
 ```"Battle Result: No victor on this battle field"```
 if it ends in a tie.
+
+### Good Vs Evil - Testing
+
+Using NUnit Legacy Framework I decided to copy-and-paste tests used in CodeWars to check locally if my program works correctly.
+
+You can check the tests here => [GoodVsEvilTests]().

@@ -4,4 +4,4 @@
 In this repository I will try to showcase my (at least partially) finished projects and exercises.
 
 ### Still learning
-As I am still learning I appreciate all feedback, even if not kindly made.
+As I am still learning I appreciate any and all feedback. :)

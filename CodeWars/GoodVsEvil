@@ -1,0 +1,38 @@
+using System;
+using System.Net;
+
+namespace GoodVsEvilNs
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(GoodVsEvil("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
+        }
+
+        public static string GoodVsEvil(string good, string evil)
+        {
+            int goodie, evilie;
+            string[] forcesG = good.Split(" ");
+            int[] g = Array.ConvertAll(forcesG, forceG => int.Parse(forceG));
+            goodie = ((g[0] * 1) + (g[1] * 2) + (g[2] * 3) + (g[3] * 3) + (g[4] * 4) + (g[5] * 10));
+
+            string[] forcesE = evil.Split(" ");
+            int[] e = Array.ConvertAll(forcesE, forceE => int.Parse(forceE));
+            evilie = ((e[0] * 1) + (e[1] * 2) + (e[2] * 2) + (e[3] * 2) + (e[4] * 3) + (e[5] * 5) + (e[6] * 10));
+            if (goodie > evilie)
+            {
+                return "Battle Result: Good triumphs over Evil";
+            }
+            else if (evilie > goodie)
+            {
+                return "Battle Result: Evil eradicates all trace of Good";
+            }
+            else
+            {
+                return "Battle Result: No victor on this battle field";
+            } 
+        }
+    }
+    
+}

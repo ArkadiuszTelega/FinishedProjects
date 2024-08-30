@@ -23,11 +23,11 @@ Trolls: 5
 Wizards: 10
 ```
 
-Based on this CodeWars exercise I wrote a quick program that would calculate the worths and return certain strings.
-Return 
+Based on this CodeWars exercise I wrote a quick program that would calculate the worths and return certain strings.<br>
+Return <br>
 ``` "Battle Result: Good triumphs over Evil" ``` 
-if good wins, 
+if good wins, <br>
 ```"Battle Result: Evil eradicates all trace of Good"```
-if evil wins, or 
+if evil wins, or <br>
 ```"Battle Result: No victor on this battle field"```
 if it ends in a tie.

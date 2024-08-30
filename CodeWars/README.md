@@ -24,6 +24,10 @@ Wizards: 10
 ```
 
 Based on this CodeWars exercise I wrote a quick program that would calculate the worths and return certain strings.
-Return "Battle Result: Good triumphs over Evil" if good wins, 
-"Battle Result: Evil eradicates all trace of Good" if evil wins, or 
-"Battle Result: No victor on this battle field" if it ends in a tie.
+Return 
+``` "Battle Result: Good triumphs over Evil" ``` 
+if good wins, 
+```"Battle Result: Evil eradicates all trace of Good"```
+if evil wins, or 
+```"Battle Result: No victor on this battle field"```
+if it ends in a tie.

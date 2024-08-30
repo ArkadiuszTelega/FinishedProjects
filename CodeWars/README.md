@@ -38,4 +38,4 @@ if it ends in a tie.
 
 Using NUnit Legacy Framework I decided to copy-and-paste tests used in CodeWars to check locally if my program works correctly.
 
-You can check the tests here => [GoodVsEvilTests]().
+You can check the tests here => [GoodVsEvilTests](https://github.com/ArkadiuszTelega/FinishedProjects/blob/main/CodeWars/GoodVsEvilTests).

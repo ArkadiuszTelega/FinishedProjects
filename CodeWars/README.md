@@ -26,7 +26,7 @@ Wizards: 10
 ```
 
 <br>
-Return
+Return :
 
 ``` "Battle Result: Good triumphs over Evil" ```
 if good wins, <br>

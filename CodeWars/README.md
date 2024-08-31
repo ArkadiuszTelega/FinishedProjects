@@ -26,12 +26,13 @@ Wizards: 10
 ```
 
 <br>
-Return <br>
-``` "Battle Result: Good triumphs over Evil" ``` 
+Return
+
+``` "Battle Result: Good triumphs over Evil" ```
 if good wins, <br>
-```"Battle Result: Evil eradicates all trace of Good"```
+``` "Battle Result: Evil eradicates all trace of Good" ```
 if evil wins, or <br>
-```"Battle Result: No victor on this battle field"```
+``` "Battle Result: No victor on this battle field" ```
 if it ends in a tie.
 
 ### Good Vs Evil - Testing
